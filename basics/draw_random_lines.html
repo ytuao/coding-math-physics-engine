@@ -1,0 +1,27 @@
+<!DOCTYPE html> <!--【DOCTYPE】Declares HTML5 document type-->
+<html> <!--【HTML ROOT】Root element of the HTML document -->
+    <head> <!--【HEAD】Contains metadata, styles, and scripts -->
+        <title> Coding Math: 1st Lesson </title> <!-- TITLE】Browser tab title -->
+
+        <!--【SCRIPT TAG】Links external JavaScript file -->
+        <script src = "main.js"></script>
+
+        <!--【STYLE TAG】Contains CSS styles -->
+        <style>
+            /*【BODY RESET】Removes default browser margins */
+            body {
+                margin: 0; /* Removes outer margin */
+                padding: 0; /* Removes inner padding */
+                overflow: hidden; /* Hides scrollbars */
+            }
+
+        canvas {
+            display: block; /* Removes extra space below canvas */
+        }
+        </style>
+    </head>
+    <body> <!--【BODY】Contains visible page content -->
+        <!--【CANVAS ELEMENT】Drawing area, ID allows JavaScript to find it -->
+        <canvas id = "canvas"></canvas>
+    </body>
+</html>
